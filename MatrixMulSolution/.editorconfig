@@ -1,0 +1,7 @@
+root = true
+
+# Разрешим приватным полям начинаться с _
+dotnet_diagnostic.SA1309.severity = none
+
+# На всякий случай не требуем заголовок файла
+dotnet_diagnostic.SA1633.severity = none
